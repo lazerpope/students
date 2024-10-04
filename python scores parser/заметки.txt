@@ -1,0 +1,2 @@
+class="ts-message acc-message-list-focusable has-replies no-padding-vertical"
+class="screen-reader-text"

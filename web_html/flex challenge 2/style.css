@@ -1,0 +1,42 @@
+
+.card {
+ width: 40%;
+  display: flex;
+  align-items: flex-end;
+  min-height: 300px;
+  margin: 1% 1%;
+  
+  background: url('https://images.unsplash.com/photo-1501228286853-24fd91e2c0c4?dpr=1&auto=compress,format&fit=crop&w=1350&h=&q=80&cs=tinysrgb&crop=') no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.container {
+  width: 100%;
+  padding: 20px;
+  background: rgba(#005C97, .85);
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+
+.intro {
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto ;
+  order: -1;
+}
+.card .card__content{
+    background-color: black;
+    opacity: 70%;
+    padding: 0px 20px;
+    
+}
